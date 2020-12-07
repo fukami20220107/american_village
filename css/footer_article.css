@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     margin-top:30px;
+    font-weight: 500;
 }
 
 .footer_line{
@@ -13,4 +14,22 @@
     background-color: black;
     color:white;
     font-size:20px;
+}
+
+
+@media screen and (max-width: 767px){
+    body{
+      min-width:380px;
+      text-align: center;
+    }
+
+    .nav_text{
+        font-size:50px;
+    }
+
+    .footer_line{
+        height:80px;
+        font-size:12px;
+        font-weight: 300;
+    }
 }
