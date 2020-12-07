@@ -1,0 +1,24 @@
+.header_menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav_menu {
+    padding: 30px;
+}
+
+.head_img1 {
+    position: absolute;
+    
+}
+
+.head_img2 {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.head_img3 {
+    position: absolute;
+}
