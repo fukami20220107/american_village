@@ -19,22 +19,37 @@
       <div class="container">
   
         <div class="row">
+<?php if(have_posts()): ?>
+<?php while (have_posts()): the_post();?>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-          <!-- ここから サムネイル-->      
-              <img class="card-img-top" src="img/sofi.jpg" Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"  data-holder-rendered="true">
+          <!-- ここから サムネイル-->   
+          <?php get_the_post_thumbnail()  ?>  
               <div class="card-body">
         　<!-- ここから 日付-->     
-                <p class="card-text">記事の日付がここに入ります</p> 
+                <p class="card-text"><?php the_time('Y年m月d日'); ?></p>
         　<!-- ここから 記事--> 
-                <p class="card-text">記事の内容がここに入ります</p>    
+                <p class="card-text">
+                <?php echo get_the_excerpt(); //本文を抜粋して出してくれる ?>
+                </p>    
                     <div class="d-flex justify-content-between align-items-center">                
         　<!-- ここから 続きを見る--> 
-                    <small class="text-muted">READ MORE</small>
+                    <small class="text-muted">
+                    <a href="<?php the_permalink(); //詳細へのリンク　?>">READ MORE</a>
+                    </small>
                 </div>
               </div>
             </div>
           </div>
+<?php endwhile;?>
+<?php else: ?>
+    　
+  <h2 class="subtitle">投稿はありません</h2>
+
+<?php endif;?>
+
+  <!--  -->
+
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
           <!-- ここから サムネイル-->      
