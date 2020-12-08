@@ -16,6 +16,32 @@
     font-size:20px;
 }
 
+.card{
+    height: 415px;
+    cursor: pointer;
+}
+
+.text-muted {
+    margin-top:60px;
+    font-size:15px;
+    color: gray;
+}
+
+a:link { 
+    color: gray; 
+}
+
+a:hover { 
+    color: black; 
+}
+
+.card-img-top :hover{
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+  }
+
+
 
 @media screen and (max-width: 767px){
     body{
