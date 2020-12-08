@@ -25,8 +25,9 @@
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
           <!-- ここから サムネイル-->      
-              <img class="card-img-top"  Thumbnail [100%x225] style="height: 225px; width: 100%; display: block;" data-holder-rendered="true" src=" " >
-              <?php the_post_thumbnail(''); ?>
+              <!-- <img class="card-img-top"  Thumbnail [100%x225] style="height: 225px; width: 100%; display: block;" data-holder-rendered="true" src=" " > -->
+
+              <?php the_post_thumbnail(""); ?>
               <div class="card-body">
         　<!-- ここから 日付-->     
                 <p class="card-text"><?php the_time('Y年m月d日'); ?></p>
