@@ -16,6 +16,19 @@
     font-size:20px;
 }
 
+.card{
+    height: 415px;
+}
+
+.text-muted{
+    margin-top:60px;
+}
+
+.text-muted　a{
+    color:gray;
+    font-size:80px;
+}
+
 
 @media screen and (max-width: 767px){
     body{
