@@ -8,9 +8,28 @@
     <title>OJT</title>
      <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css">
      <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer_article.css">
+     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header_main.css">
     <script src="https://kit.fontawesome.com/9e1bf99b51.js" crossorigin="anonymous"></script>
   </head>
-  <body>
+<body>
+<header>
+    <ul class="header_menu">
+        <li class="nav_menu">Menu1</li>
+        <li class="nav_menu">Menu2</li>
+        <li class="nav_menu">Menu3</li>
+        <li class="nav_menu">Menu4</li>
+    </ul>
+</header>
+
+<main>
+    <div class="photo">
+        <img class="head_img" src="<?php echo get_template_directory_uri(); ?>/img/visual_1_pc.png" alt="">
+    </div>
+
+    <p class="amebire_text">進化し続ける「街」アメリカンビレッジマガジン</p>
+</main>
+
+   
 <!--------------------- ここから ariticle-------------------->
 
 <div class="nav_text">Latest Articles</div>
