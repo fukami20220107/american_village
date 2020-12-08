@@ -1,3 +1,7 @@
+html{
+    width: 1152px;
+}
+
 /* nav */
 .header_menu {
     display: flex;

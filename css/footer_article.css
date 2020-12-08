@@ -17,30 +17,52 @@
 }
 
 .card{
-    height: 415px;
     cursor: pointer;
+    width:300px; 
+    margin:0 auto; 
+    overflow:hidden; 
+}
+
+.card:hover{
+    transform:scale(1.05,1.05);
+}
+
+.card-text{
+    height:30px;
 }
 
 .text-muted {
-    margin-top:60px;
-    font-size:15px;
-    color: gray;
+    font-size:13px;
+    display: block;
+    position: absolute;
+    right: 2px;
+    bottom: 5px;
+    color: #000000;
+    padding-bottom: 10px;
 }
 
 a:link { 
-    color: gray; 
+    color:#000000; 
 }
 
 a:hover { 
-    color: black; 
+    color: gray; 
 }
 
-.card-img-top :hover{
-    transition-duration: 0.3s;
-    transform: scale(1.1);
-    transition-duration: 0.3s;
+.line_bt {
+    display: block;
+    position: absolute;
+    right: 2px;
+    bottom: 5px;
+    width: 20px;
+    height: 1px;
+    background: #000000;
   }
 
+.active {
+    width: 75px;
+    transition: .5s;
+  }
 
 
 @media screen and (max-width: 767px){
