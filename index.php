@@ -25,7 +25,8 @@
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
           <!-- ここから サムネイル-->      
-              <img class="card-img-top" src=" <?php the_post_thumbnail('thumbnail'); ?>" Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"  data-holder-rendered="true">
+              <img class="card-img-top"  Thumbnail [100%x225] style="height: 225px; width: 100%; display: block;" data-holder-rendered="true" src=" " >
+              <?php the_post_thumbnail(''); ?>
               <div class="card-body">
         　<!-- ここから 日付-->     
                 <p class="card-text"><?php the_time('Y年m月d日'); ?></p>
@@ -36,7 +37,7 @@
                     <div class="d-flex justify-content-between align-items-center">                
         　<!-- ここから 続きを見る--> 
                     <small class="text-muted">
-                    <a href="<?php the_permalink(); //詳細へのリンク　?>"><pREAD MORE</a>
+                    <a href="<?php the_permalink(); //詳細へのリンク　?>">READ MORE</a>
                     </small>
                 </div>
               </div>
