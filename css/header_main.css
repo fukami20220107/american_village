@@ -1,24 +1,39 @@
+/* nav */
 .header_menu {
     display: flex;
     justify-content: flex-end;
 }
+/* nav終了 */
 
 .nav_menu {
     padding: 30px;
 }
 
-.head_img1 {
-    position: absolute;
-    
-}
-
-.head_img2 {
+/* 擬似要素main */
+.photo {
     position: relative;
     display: block;
     margin: 0 auto;
     width: 70%;
+    margin-top: 50px ;
 }
 
-.head_img3 {
+.photo::before {
     position: absolute;
+    top: -110px;
+    left: -110px;
+    content: url(../img/logo.png);
+    z-index: 10;
+}
+
+.photo::after {
+    position: absolute;
+    bottom: -50px;
+    right: -80px;
+    content: url(../img/visual_text_pc.png);
+}
+/* 擬似要素main終了 */
+
+.amebire_text {
+    padding: 30px 0 0 150px;
 }
