@@ -43,7 +43,7 @@
     padding-bottom: 10px;
 }
 
-a:link { 
+a  { 
     color:#000000; 
 }
 
@@ -74,17 +74,14 @@ a:hover {
 
 @media screen and (max-width: 767px){
    
+    /* Latest Article */
     .nav_text{
         font-size:70px;
         font-weight: 600;
         margin-top:50px;
     }
 
-    .footer_line{
-        height:80px;
-        font-size:12px;
-        font-weight: 300;
-    }
+    /* 記事の部分 */
 
     .card{
         width: 100%;
@@ -95,7 +92,6 @@ a:hover {
         width: 100%;
         margin:0 auto;
         margin-bottom:80px;
-
     }
 
     .col-md-4 img{
@@ -104,7 +100,7 @@ a:hover {
     }
 
     .card-text{
-        font-size:30px;
+        font-size:50px;
     }
 
     .card-body{
@@ -112,7 +108,7 @@ a:hover {
     }
 
     .text-muted {
-        font-size:20px;
+        font-size:40px;
         display: block;
         position: absolute;
         right: 50px;
@@ -120,9 +116,9 @@ a:hover {
         padding-bottom: 0px;
     }
 
+    /* 下の線 */
     .line-in{
        height: 15px;
-
     }
 
     .line_bt {
@@ -131,4 +127,11 @@ a:hover {
         right: 5px;
         bottom: 0px;
       }
+
+      /* footer */
+      .footer_line{
+        height:80px;
+        font-size:12px;
+        font-weight: 300;
+    }
 }
