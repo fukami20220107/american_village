@@ -23,10 +23,9 @@
 <?php query_posts("cat=''&showposts=6"); ?>
 <?php while (have_posts()): the_post();?>
           <div class="col-md-4">
-            <div class="card mb-4 shadow-sm border border-0 shadow-none shadow">
-          <!-- ここから サムネイル-->      
-              <!-- <img class="card-img-top"  Thumbnail [100%x225] style="height: 225px; width: 100%; display: block;" data-holder-rendered="true" src=" " > -->
-              <?php the_post_thumbnail( array(300,200)); ?>
+             <!-- ここから サムネイル-->   
+            <div class="card md-4 shadow-sm border border-0 shadow-none shadow">   
+              <?php the_post_thumbnail(""); ?>
               <div class="card-body">
         　<!-- ここから 日付-->     
                 <p class="card-text"><?php the_time('Y年m月d日'); ?></p>
@@ -38,7 +37,9 @@
         　<!-- ここから 続きを見る--> 
                     <small class="text-muted">
                     <a href="<?php the_permalink(); //詳細へのリンク　?>">READ MORE</a>
-                    <p class="line_bt"></p>
+                      <div class="line-in">
+                         <p class="line_bt"></p>
+                      </div>
                     </small>
                 </div>
               </div>

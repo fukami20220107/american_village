@@ -21,7 +21,8 @@
     cursor: pointer;
     width:300px; 
     margin:0 auto; 
-    overflow:hidden;    
+    overflow:hidden;  
+    margin-bottom: 30px;  
 }
 
 .card:hover{
@@ -73,7 +74,9 @@ a:hover {
     }
 
     .nav_text{
-        font-size:100px;
+        font-size:70px;
+        font-weight: 600;
+        margin-top:50px;
     }
 
     .footer_line{
@@ -82,7 +85,49 @@ a:hover {
         font-weight: 300;
     }
 
-　.card{
-    width: 500px;
+    .card{
+        width: 100%;
+        padding: 0px 50px;
     }
+
+    .col-md-4{
+        width: 100%;
+        margin:0 auto;
+        margin-bottom:80px;
+
+    }
+
+    .col-md-4 img{
+        width: 100%;
+        height: auto;
+    }
+
+    .card-text{
+        font-size:30px;
+    }
+
+    .card-body{
+        height: 300px;
+    }
+
+    .text-muted {
+        font-size:20px;
+        display: block;
+        position: absolute;
+        right: 50px;
+        bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .line-in{
+       height: 15px;
+
+    }
+
+    .line_bt {
+        display: block;
+        position: absolute;
+        right: 5px;
+        bottom: 0px;
+      }
 }
