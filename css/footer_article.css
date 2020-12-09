@@ -21,7 +21,8 @@
     cursor: pointer;
     width:300px; 
     margin:0 auto; 
-    overflow:hidden;    
+    overflow:hidden;  
+    margin-bottom: 30px;  
 }
 
 .card:hover{
@@ -42,7 +43,7 @@
     padding-bottom: 10px;
 }
 
-a:link { 
+a  { 
     color:#000000; 
 }
 
@@ -65,24 +66,72 @@ a:hover {
     transition: .5s;
   }
 
+  /* footer */
+  footer{
+      width: 100%;
+  }
+
 
 @media screen and (max-width: 767px){
-    body{
-      min-width:380px;
-      text-align: center;
-    }
-
+   
+    /* Latest Article */
     .nav_text{
-        font-size:100px;
+        font-size:70px;
+        font-weight: 600;
+        margin-top:50px;
     }
 
-    .footer_line{
+    /* 記事の部分 */
+
+    .card{
+        width: 100%;
+        padding: 0px 50px;
+    }
+
+    .col-md-4{
+        width: 100%;
+        margin:0 auto;
+        margin-bottom:80px;
+    }
+
+    .col-md-4 img{
+        width: 100%;
+        height: auto;
+    }
+
+    .card-text{
+        font-size:50px;
+    }
+
+    .card-body{
+        height: 300px;
+    }
+
+    .text-muted {
+        font-size:40px;
+        display: block;
+        position: absolute;
+        right: 50px;
+        bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    /* 下の線 */
+    .line-in{
+       height: 15px;
+    }
+
+    .line_bt {
+        display: block;
+        position: absolute;
+        right: 5px;
+        bottom: 0px;
+      }
+
+      /* footer */
+      .footer_line{
         height:80px;
         font-size:12px;
         font-weight: 300;
-    }
-
-　.card{
-    width: 500px;
     }
 }
