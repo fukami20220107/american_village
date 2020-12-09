@@ -3,12 +3,11 @@
 <main>
     <div class="photo">
         <img class="head_img" src="<?php echo get_template_directory_uri(); ?>/img/visual_1_pc.png" alt="">
+        <div id="hd_img"></div>
+        <div id="af_img"></div>
     </div>
 
-    <div id="hd_img"></div>
-    <div id="af_img"></div>
-
-    <p class="amebire_text">進化し続ける「街」アメリカンビレッジマガジン</p>
+    <p class="amebire_text"><span>進化し続ける「街」</span><span class="br">アメリカンビレッジマガジン</span></p>
 </main>
 
    
