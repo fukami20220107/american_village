@@ -1,25 +1,4 @@
-<!--------------------- 借り入れheader---------------------->
-<html lang="ja"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <title>OJT</title>
-     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css">
-     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer_article.css">
-     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header_main.css">
-    <script src="https://kit.fontawesome.com/9e1bf99b51.js" crossorigin="anonymous"></script>
-  </head>
-<body>
-<header>
-    <ul class="header_menu">
-        <li class="nav_menu">Menu1</li>
-        <li class="nav_menu">Menu2</li>
-        <li class="nav_menu">Menu3</li>
-        <li class="nav_menu">Menu4</li>
-    </ul>
-</header>
+<?php get_header(); ?>
 
 <main>
     <div class="photo">
@@ -42,22 +21,22 @@
 <?php query_posts("cat=''&showposts=6"); ?>
 <?php while (have_posts()): the_post();?>
           <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
+            <div class="card mb-4 shadow-sm border border-0 shadow-none shadow">
           <!-- ここから サムネイル-->      
               <!-- <img class="card-img-top"  Thumbnail [100%x225] style="height: 225px; width: 100%; display: block;" data-holder-rendered="true" src=" " > -->
-
-              <?php the_post_thumbnail(""); ?>
+              <?php the_post_thumbnail( array(300,200)); ?>
               <div class="card-body">
         　<!-- ここから 日付-->     
                 <p class="card-text"><?php the_time('Y年m月d日'); ?></p>
         　<!-- ここから 記事--> 
                 <p class="card-text">
-                <?php echo get_the_excerpt(); //本文を抜粋して出してくれる ?>
+                <?php echo wp_trim_words( get_the_content(), 25, '...' ); ?>
                 </p>    
                     <div class="d-flex justify-content-between align-items-center">                
         　<!-- ここから 続きを見る--> 
                     <small class="text-muted">
                     <a href="<?php the_permalink(); //詳細へのリンク　?>">READ MORE</a>
+                    <p class="line_bt"></p>
                     </small>
                 </div>
               </div>
@@ -77,15 +56,4 @@
     </div>
 <!--------------------- ここまでがarticle-------------------->
 
-
-
-<!--------------------- ここから footer---------------------->
-<footer>
-    <div class="footer_line">
-        Copyright &copy; Shinohara.　ALL RIGHTS RESERVED.
-    </div>
-</footer>
-<!--------------------- ここまで footer---------------------->
-
-  </body>
-</html>
+<?php get_footer(); ?>
