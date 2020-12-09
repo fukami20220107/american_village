@@ -5,6 +5,9 @@
         <img class="head_img" src="<?php echo get_template_directory_uri(); ?>/img/visual_1_pc.png" alt="">
     </div>
 
+    <div id="hd_img"></div>
+    <div id="af_img"></div>
+
     <p class="amebire_text">進化し続ける「街」アメリカンビレッジマガジン</p>
 </main>
 
