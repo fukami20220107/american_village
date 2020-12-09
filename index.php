@@ -3,8 +3,10 @@
 <main>
     <div class="photo">
         <img class="head_img" src="<?php echo get_template_directory_uri(); ?>/img/visual_1_pc.png" alt="">
+        <!-- スマホの時だけ -->
         <div id="hd_img"></div>
         <div id="af_img"></div>
+        <!-- スマホの時だけ -->
     </div>
 
     <p class="amebire_text"><span>進化し続ける「街」</span><span class="br">アメリカンビレッジマガジン</span></p>

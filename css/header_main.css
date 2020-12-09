@@ -65,12 +65,12 @@ html{
     #hd_img {
         content: url(../img/visual_1_sp.png);
         width: 100%;
-        margin-top:25%;
+        margin-top:40%;
     }
 
     .photo::before {
-        top: -32%;
-        left: 38%;
+        top: -50%;
+        left: 33%;
     }
 
     .photo::after {
