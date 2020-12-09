@@ -1,5 +1,11 @@
-html{
+.content{
     width: 1152px;
+    margin:0 auto;
+}
+
+/* header */
+header{
+    width: 100%;
 }
 
 /* nav */
@@ -50,7 +56,7 @@ html{
 }
 
 @media screen and (max-width: 767px) {
-    html{
+    content{
         width: 767px;
     }
 

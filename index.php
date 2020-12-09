@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+<div class="content">
 <main>
     <div class="photo">
         <img class="head_img" src="<?php echo get_template_directory_uri(); ?>/img/visual_1_pc.png" alt="">
@@ -60,5 +61,6 @@
       </div>
     </div>
 <!--------------------- ここまでがarticle-------------------->
+</div>
 
 <?php get_footer(); ?>

@@ -66,13 +66,14 @@ a:hover {
     transition: .5s;
   }
 
+  /* footer */
+  footer{
+      width: 100%;
+  }
+
 
 @media screen and (max-width: 767px){
-    body{
-      min-width:380px;
-      text-align: center;
-    }
-
+   
     .nav_text{
         font-size:70px;
         font-weight: 600;
