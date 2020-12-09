@@ -73,12 +73,16 @@ a:hover {
     }
 
     .nav_text{
-        font-size:50px;
+        font-size:100px;
     }
 
     .footer_line{
         height:80px;
         font-size:12px;
         font-weight: 300;
+    }
+
+　.card{
+    width: 500px;
     }
 }
