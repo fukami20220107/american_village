@@ -7,5 +7,6 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script defer src="<?php echo get_template_directory_uri(); ?>/js/american_village.js"></script>
+    <script defer src="<?php echo get_template_directory_uri(); ?>/js/slide.js"></script>
   </body>
 </html>
