@@ -75,14 +75,18 @@ header{
         display: none;
     }
 
-    #hd_img {
+    #carouselExampleControls {
+        margin-top: 40%;
+    }
+
+    /* #hd_img {
         content: url(../img/visual_1_sp.png);
         width: 100%;
         margin-top:40%;
-    }
+    } */
 
     .photo::before {
-        top: -50%;
+        top: -65%;
         left: 33%;
     }
 
@@ -94,8 +98,8 @@ header{
         content: url(../img/visual_text_sp.png);
         position: absolute;
         top: 10%;
-        left: 5%;
-        width: 60%;
+        left: 20%;
+        width: 40%;
     }
 
     .amebire_text {
