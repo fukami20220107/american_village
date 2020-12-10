@@ -93,7 +93,7 @@ header{
     } */
 
     .photo::before {
-        top: -65%;
+        top: -40%;
         left: 33%;
     }
 
@@ -138,7 +138,6 @@ header{
 
     #sp1 {
         content: url(../img/visual_1_sp.png);
-        /* width: 100%; */
     }
 
     #sp2 {
