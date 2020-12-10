@@ -7,20 +7,6 @@
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="3000">
         <div class="carousel-inner">
           <div class="carousel-item  active">
-            <!--  -->
-
-          <!-- < ?php
-            $img01_obj = get_page_by_title("slider-1", NULL, 'attachment');
-           ?>
-           < ?PHP 
-           if ($img01_obj != NULL ) {
-            ?>
-            <img src="< ?php echo $img01_obj->guid; ?>" width="800" height="450" />
-            < ?php 
-            }
-            ?> -->
-
-            <!--  -->
             <img src="<?php echo get_template_directory_uri(); ?>/img/visual_1_pc.png" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: First slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#555" dy=".3em"></text>
           </div>
           <div class="carousel-item">
