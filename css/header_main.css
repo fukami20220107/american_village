@@ -65,6 +65,7 @@ header{
 @media screen and (max-width: 767px) {
     .content{
         width: 767px;
+        margin:0 auto;
     }
 
     .header_menu {
