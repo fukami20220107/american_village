@@ -80,6 +80,12 @@ header{
         margin-top: 40%;
     }
 
+    .carousel-inner {
+        width: 100%;
+    }
+
+
+
     /* #hd_img {
         content: url(../img/visual_1_sp.png);
         width: 100%;
@@ -96,7 +102,7 @@ header{
     }
 
     #af_img {
-        content: url(../img/visual_text_sp.png);
+    content: url(../img/visual_text_sp.png);
         position: absolute;
         top: 10%;
         left: 20%;
@@ -115,5 +121,31 @@ header{
     .amebire_text span::after {
         content: "\A";
         white-space: pre;
+    }
+
+    /* スライダー写真変更 */
+    .pc1 {
+        display: none;
+    }
+
+    .pc2 {
+        display: none;
+    }
+
+    .pc3 {
+        display: none;
+    }
+
+    #sp1 {
+        content: url(../img/visual_1_sp.png);
+        /* width: 100%; */
+    }
+
+    #sp2 {
+        content: url(../img/visual_2_sp.png);
+    }
+
+    #sp3 {
+        content: url(../img/visual_3_sp.png);
     }
 }

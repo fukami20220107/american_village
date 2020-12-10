@@ -7,26 +7,20 @@
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="3000">
         <div class="carousel-inner">
           <div class="carousel-item  active">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/visual_1_pc.png" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: First slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#555" dy=".3em"></text>
+            <div class="pc1"><img src="<?php echo get_template_directory_uri(); ?>/img/visual_1_pc.png" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: First slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#555" dy=".3em"></text></div>
+            <div id="sp1"></div>
           </div>
           <div class="carousel-item">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/visual_2_pc.png" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Second slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"/><text x="50%" y="50%" fill="#444" dy=".3em"></text>
+            <div class="pc2"><img src="<?php echo get_template_directory_uri(); ?>/img/visual_2_pc.png" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Second slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"/><text x="50%" y="50%" fill="#444" dy=".3em"></text></div>
+            <div id="sp2"></div>
           </div>
           <div class="carousel-item">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/visual_3_pc.png" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Third slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"/><text x="50%" y="50%" fill="#333" dy=".3em"></text>
+            <div class="pc3"><img src="<?php echo get_template_directory_uri(); ?>/img/visual_3_pc.png" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Third slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"/><text x="50%" y="50%" fill="#333" dy=".3em"></text></div>
+            <div id="sp3"></div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
       <!-- スライダー終了 -->
-        <!-- <img class="head_img" src="<?php echo get_template_directory_uri(); ?>/img/visual_1_pc.png" alt=""> -->
         <!-- スマホの時だけ -->
         <div id="hd_img"></div>
         <div id="af_img"></div>
