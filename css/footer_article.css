@@ -66,6 +66,10 @@ a:hover {
     transition: .5s;
   }
 
+  .album{
+      padding:1px;
+  }
+
   /* footer */
   footer{
       width: 100%;
