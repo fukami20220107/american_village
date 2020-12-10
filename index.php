@@ -23,7 +23,6 @@
             ?> -->
 
             <!--  -->
-            <img src="<?php echo get_template_directory_uri(); ?>/img/visual_1_pc.png" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: First slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#555" dy=".3em"></text>
           </div>
           <div class="carousel-item">
             <div class="pc2"><img src="<?php echo get_template_directory_uri(); ?>/img/visual_2_pc.png" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Second slide"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"/><text x="50%" y="50%" fill="#444" dy=".3em"></text></div>
