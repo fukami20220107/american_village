@@ -56,15 +56,15 @@
                 </p>    
                     <div class="d-flex justify-content-between align-items-center">                
         　<!-- ここから 続きを見る--> 
-                    <small class="text-muted">
-                    <a href="<?php the_permalink(); //詳細へのリンク　?>">READ MORE</a>
-                      <div class="line-in">
-                         <p class="line_bt"></p>
-                      </div>
-                    </small>
-                </div>
-              </div>
-            </div>
+                       <small class="text-muted">
+                           <a href="<?php the_permalink(); //詳細へのリンク　?>">READ MORE</a>
+                           <div class="line-in">
+                              <p class="line_bt"></p>
+                           </div>
+                        </small>
+                     </div>
+                  </div>
+               </div>
           </div>
 <?php endwhile;?>
 <?php else: ?>
@@ -77,7 +77,11 @@
         </div>
       </div>
     </div>
-  </div>
+</div>
+
+  
+  
+ 
 
 <!--------------------- ここまでがarticle-------------------->
 

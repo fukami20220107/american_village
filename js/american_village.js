@@ -12,4 +12,5 @@ $(function () {
         .on('mouseleave',function () {
             $(this).addClass('shadow-none');        
         });
+
 });

@@ -138,4 +138,8 @@ a:hover {
         font-size:12px;
         font-weight: 300;
     }
+
+    footer{
+        width: 767px;
+    }
 }

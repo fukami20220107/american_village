@@ -15,7 +15,7 @@ header{
 }
 /* nav終了 */
 
-.nav_menu {
+.header_menu li {
     padding: 30px;
 }
 

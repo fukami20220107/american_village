@@ -1,3 +1,4 @@
+
 <footer>
     <div class="footer_line">
         Copyright &copy; Shinohara.　ALL RIGHTS RESERVED.

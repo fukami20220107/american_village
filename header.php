@@ -19,10 +19,19 @@
   </head>
 <body>
 <header>
-    <ul class="header_menu">
-        <li class="nav_menu">Menu1</li>
+<?php 
+  wp_nav_menu( array( 
+    'theme_location' => 'footer-menu',
+    'menu_class'      => 'header_menu',
+  ) ); 
+?>
+    <!-- <ul class="header_menu">
+        <li class="nav_menu">
+
+        </li>
         <li class="nav_menu">Menu2</li>
         <li class="nav_menu">Menu3</li>
         <li class="nav_menu">Menu4</li>
-    </ul>
+    </ul> -->
+    
 </header>
